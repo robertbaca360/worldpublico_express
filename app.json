@@ -1,0 +1,8 @@
+{
+  "name": "Heroku: Node.js",
+  "description": " Node.js app using Express 4",
+  "repository": "git+https://github.com/robertbaca360/worldpublico.git",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
+}

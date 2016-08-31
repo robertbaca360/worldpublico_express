@@ -1,12 +1,12 @@
 {
-  "name": "expressauth",
+  "name": "worldpublico",
   "version": "0.0.1",
   "description": "express app with verification & authorization",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Marque Reavley <mrqrvly@gmail.com>",
+  "author": "RobertBaca <robertbaca360@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "bcrypt": "^0.8.7",
@@ -22,5 +22,16 @@
     "gulp-less": "^3.1.0",
     "gulp-live-server": "0.0.30",
     "gulp-sqlite3": "0.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertbaca360/worldpublico.git"
+  },
+  "keywords": [
+    "worldpublico"
+  ],
+  "bugs": {
+    "url": "https://github.com/robertbaca360/worldpublico/issues"
+  },
+  "homepage": "https://github.com/robertbaca360/worldpublico#readme"
 }
