@@ -1,0 +1,140 @@
+<div class="main-container">
+        
+ 
+
+
+<div class="tab-content">
+                      <!-- Signin Section Start Here-->
+                      <div class="tab-pane active" id="signin">
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h4>Create an Account</h4>
+                            <form role="form" action="/signed" method="POST" >
+                            <div class="form-group">
+                              <label for="name">Full Name<span>*</span></label>
+                              <input name="fullname" type="text" class="form-control" id="name">
+                            </div>
+                            <div class="form-group">
+                              <label for="name">Username<span>*</span></label>
+                              <input name="username" type="text" class="form-control" id="name">
+                            </div>
+                             <div class="form-group">
+                              <label for="password">Password<span>*</span></label>
+                              <input name="password" type="text" class="form-control" id="password">
+                            </div>
+
+                            <div class="form-group">
+                              <label for="name">Email<span>*</span></label>
+                              <input name="email" type="text" class="form-control" id="name">
+                            </div>
+                            <div class="form-group">
+                              <label for="password">City<span>*</span></label>
+                              <input name="City" type="text" class="form-control" id="password">
+                            </div>
+                              <div class="form-group btns-wrapper">
+                              <button type="submit" class="btn btn-default btn-lg">Sign Up</button>
+                            </div>
+                            </form>
+                          </div>
+
+                            <div class="col-sm-6 col-sm-offset-1">
+                            <h4>Already have an account, log in here</h4>
+                          
+                            <div class="col-sm-5">
+                            <form role="form" action="/log" method="POST" >
+                            <div class="form-group">
+                              <label for="name">Username<span>*</span></label>
+                              <input name="username" type="text" class="form-control" id="name">
+                            </div>
+                            <div class="form-group">
+                              <label for="name">Email<span>*</span></label>
+                              <input name="email" type="text" class="form-control" id="name">
+                            </div>
+                            <div class="form-group">
+                              <label for="password">password<span>*</span></label>
+                              <input name="password" type="text" class="form-control" id="password">
+                            </div>
+                            <div class="form-group btns-wrapper">
+                              <button type="submit" class="btn btn-default btn-lg">login</button>
+                              <a href="#" class="pull-right frgt-pwd">Lost Password?</a>
+                            </div>
+                            </form>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Signin Section Ends Here-->
+                      
+                      <!-- Billing & Shipping Section Start Here-->
+                      <div class="tab-pane" id="billing">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <h4>Billing Address</h4>
+                            <form role="form" >
+                              <div class="form-group">
+                              <label for="country">Country<span>*</span></label>
+                              <input type="text" class="form-control" id="country">
+                            </div>
+                            <div class="form-group col-sm-6 col-small-left">
+                              <label for="fname">First Name<span>*</span></label>
+                              <input type="text" class="form-control" id="fname">
+                            </div>
+                            <div class="form-group col-sm-6 col-small-right">
+                              <label for="lname">Last Name<span>*</span></label>
+                              <input type="text" class="form-control" id="lname">
+                            </div>
+                            <div class="form-group">
+                              <label for="company">Company Name</label>
+                              <input type="text" class="form-control" id="company">
+                            </div>
+                            <div class="form-group">
+                              <label for="address">Address<span>*</span></label>
+                              <input type="text" class="form-control" id="address">
+                              <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                              <label for="city">Town / City<span>*</span></label>
+                              <input type="text" class="form-control" id="city">
+                            </div>
+                            <div class="form-group col-sm-6 col-small-left">
+                              <label>County</label>
+                              <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group col-sm-6 col-small-right">
+                              <label for="pcode">Postcode <span>*</span></label>
+                              <input type="text" class="form-control" id="pcode">
+                            </div>
+                            <div class="form-group col-sm-6 col-small-left">
+                              <label for="mail">Email Address</label>
+                              <input type="text" class="form-control" id="mail">
+                            </div>
+                            <div class="form-group col-sm-6 col-small-right">
+                              <label for="phone">Phone <span>*</span></label>
+                              <input type="text" class="form-control" id="phone">
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox"> Create an account?</label>
+                            </div>
+                            <div class="form-group">
+                              <button type="submit" class="btn btn-default btn-lg">continue</button>
+                            </div>
+                            </form>
+                          </div>
+                          <div class="col-sm-6">
+                            <h4>Shipping Address</h4>
+                            <form role="form" >
+                              <div class="form-group">
+                              <label for="phone">Order Notes</label>
+                                <div class="checkbox checkbox-right">
+                                <label><input type="checkbox">Ship to billing address?</label>
+                              </div>
+                              <textarea class="form-control" rows="3" cols="10"></textarea>
+                            </div>
+                          </form>
+                          </div>
+                        </div>
+                      </div>
+                       <!-- Billing & Shipping Section Ends Here-->
+
+                       </div>
+

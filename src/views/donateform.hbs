@@ -1,0 +1,266 @@
+<body>
+    <div id="wrapper">
+      <!--Header Section Start Here -->
+      
+      <!-- Header Section End Here -->
+      <!-- site content -->
+      <div id="main">
+      <!-- Breadcrumb Section Start Here -->
+     <!--    <div class="breadcrumb-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <h1>Our Shop</h1>
+                <ul class="breadcrumb">
+                  <li>
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li class="active">
+                     Product Details
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      <!-- Breadcrumb Section End Here -->
+
+        <div class="container" id="page-info">
+          <div class="row">
+            <div class="col-xs-12">
+              <!-- Checkout Section Start Here-->
+              <section class="checkout anim-section">
+                <div class="row">
+                  <div class="customer-care col-sm-12">Need help? Call customer services on <a href="tel:6701234567">800-000-0000</a>.</div>
+                  <!-- Customer Support Section Start Here-->
+                  <div class="customer-support col-sm-12">
+                    <ul>
+                      <li><a href="#">Email customer care</a></li>
+                      <li><a href="#">Shipping information</a></li>
+                      <li><a href="#">Returns &amp; exchange</a></li>
+                      <li><a href="#">F.A.Q.'s</a></li>
+                    </ul>
+                  </div>
+                  <!-- Customer Support Section Ends Here-->
+                  <!-- Checkout Tabbing Section Start Here-->
+                  <div class="tab-wrap col-sm-12">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs nav-tabs_less-space" role="tablist">
+                      <li class="active col-sm-3"><a href="#signin" role="tab" data-toggle="tab">1. Sign In</a></li>
+                      <li class="col-sm-3"><a href="#billing" role="tab" data-toggle="tab">2. Billing &amp; Shipping</a></li>
+                      <li class="col-sm-3"><a href="#review" role="tab" data-toggle="tab">3. Review &amp; Payment</a></li>
+                      <li class="col-sm-3"><a href="#confirmation" role="tab" data-toggle="tab">4. Confirmation</a></li>
+                    </ul>
+                    
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                      <!-- Signin Section Start Here-->
+                      <div class="tab-pane active" id="signin">
+                        <div class="row">
+                          <div class="col-sm-5">
+                            <h4>Log/Sign In</h4>
+                            <form role="form" action="/log" method="POST" >
+                            <div class="form-group">
+                              <label for="name">Username<span>*</span></label>
+                              <input name="username" type="text" class="form-control" id="name">
+                            </div>
+                            <div class="form-group">
+                              <label for="name">Email<span>*</span></label>
+                              <input name="email" type="text" class="form-control" id="name">
+                            </div>
+                            <div class="form-group">
+                              <label for="password">password<span>*</span></label>
+                              <input name="password" type="text" class="form-control" id="password">
+                            </div>
+                            <div class="form-group btns-wrapper">
+                              <button type="submit" class="btn btn-default btn-lg">login</button>
+                              <a href="#" class="pull-right frgt-pwd">Lost Password?</a>
+                            </div>
+                            </form>
+                          </div>
+                          <div class="col-sm-6 col-sm-offset-1">
+                            <h4>I'm new here</h4>
+                            <p>Click here to create an account. It is simple and all you need is a username, active email, and password.</p>
+                            <p>Login using  username and password to view the user area.</p>
+                            <div class="btns-wrapper">
+                            <a href="/signup" class="btn btn-default grouped">Create an account </a>
+                            <!-- <a href="#" class="btn btn-default grouped">Checkout as a guest </a> -->
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Signin Section Ends Here-->
+                      
+                      <!-- Billing & Shipping Section Start Here-->
+                      <div class="tab-pane" id="billing">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <h4>Billing Address</h4>
+                            <form role="form" >
+                              <div class="form-group">
+                              <label for="country">Country<span>*</span></label>
+                              <input type="text" class="form-control" id="country">
+                            </div>
+                            <div class="form-group col-sm-6 col-small-left">
+                              <label for="fname">First Name<span>*</span></label>
+                              <input type="text" class="form-control" id="fname">
+                            </div>
+                            <div class="form-group col-sm-6 col-small-right">
+                              <label for="lname">Last Name<span>*</span></label>
+                              <input type="text" class="form-control" id="lname">
+                            </div>
+                            <div class="form-group">
+                              <label for="company">Company Name</label>
+                              <input type="text" class="form-control" id="company">
+                            </div>
+                            <div class="form-group">
+                              <label for="address">Address<span>*</span></label>
+                              <input type="text" class="form-control" id="address">
+                              <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                              <label for="city">Town / City<span>*</span></label>
+                              <input type="text" class="form-control" id="city">
+                            </div>
+                            <div class="form-group col-sm-6 col-small-left">
+                              <label>County</label>
+                              <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group col-sm-6 col-small-right">
+                              <label for="pcode">Postcode <span>*</span></label>
+                              <input type="text" class="form-control" id="pcode">
+                            </div>
+                            <div class="form-group col-sm-6 col-small-left">
+                              <label for="mail">Email Address</label>
+                              <input type="text" class="form-control" id="mail">
+                            </div>
+                            <div class="form-group col-sm-6 col-small-right">
+                              <label for="phone">Phone <span>*</span></label>
+                              <input type="text" class="form-control" id="phone">
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox"> Create an account?</label>
+                            </div>
+                            <div class="form-group">
+                              <button type="submit" class="btn btn-default btn-lg">continue</button>
+                            </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                       <!-- Billing & Shipping Section Ends Here-->
+                       
+                      <!-- Review & Payment Section Start Here-->
+                      <div class="tab-pane" id="review">
+                        <h4>Your Donation Summary</h4>                       
+                        <!-- AddtoCart Section Start Here-->
+                      <section class="anim-section AddtoCart">
+                        <div class="row">
+                          <div class="col-sm-12">               
+                            <table class="table" id="main-table">
+                                <thead>
+                                  <tr>
+                                    <th>#Item</th>
+                                    <th>Product</th>
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+                                    <th>Total</th>
+                                    <th>&nbsp;</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td class="product-image"><img src="assets/img/shopping-img1.png" alt="" /></td>
+                                    <td class="product-title">Heading title product</td>
+                                    <td>$2.00</td>
+                                    <td>1</td>
+                                    <td class="total">$2.00</td>
+                                    <td><a href="#"><span class="glyphicon glyphicon-remove"></span></a></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              <table class="table footer-table" id="summary-table"> 
+                               <tr>
+                                  <td class="one">&nbsp;</td>
+                                  <td class="two">
+                                      <table>
+                                        <tr>
+                                          <td>Cart Subtotal</td>
+                                          <td>$2.00</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Shipping and Handling</td>
+                                          <td class="free-shipping">Free Shipping</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Order Total</td>
+                                          <td class="total">$2.00</td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                               </tr>    
+                              </table>                
+                          </div>
+                        </div>
+                      </section>
+                      <!-- AddtoCart Section End Here-->
+                      <!-- Payment Section Start Here-->
+                      <section class="payment-option">
+                        <h4>Payment Method</h4>
+                        <form role="form">
+                            <div class="radio">
+                            <label>
+                              <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                              Direct Bank Transfer
+                              <small>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order wont be shipped until the funds have cleared in our account.</small>
+                            </label>
+                          </div>
+                          <div class="radio">
+                            <label>
+                              <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                              Cheque Payment
+                            </label>
+                          </div>
+                          <div class="radio">
+                            <label>
+                              <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+                              PayPal <img src="assets/img/paypal.jpg" alt="" />
+                            </label>
+                          </div>
+                          <div class="btns-wrapper">
+                            <a href="#" class="btn btn-default grouped">place order</a>
+                          </div>
+                          </form>
+                      </section>
+                      <!-- Payment Section Ends Here-->
+                      </div>
+                       <!-- Review & Payment Section Ends Here-->
+                      <div class="tab-pane" id="confirmation">
+                        <div class="row">
+                          <div class="col-xs-12">
+                            <i class="fa fa-check-circle-o completed"></i>
+                            <strong class="payment-success">Payment Successfully Completed</strong>
+                            <p>Thank you for Purchasing product from Us. 20% of the price will go to Charity.</p>
+                            <span>You have Purchased <span class="purchased-item">“Volunteer T-Shirt”</span></span>
+                            <div class="total-price">
+                              <span>Total:</span> <span class="price-value">$50.49</span>
+                            </div>
+                          
+                            <a href="#" class="btn btn-default track-btn">TRACK ORDER</a>
+                            
+                        </div>
+                    </div>
+      
+                      </div>
+                    </div>
+                    </div>
+                  <!-- Checkout Tabbing Section Ends Here-->                  
+                </div>
+              </section>
+              <!-- Checkout Section End Here-->
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- site content ends -->

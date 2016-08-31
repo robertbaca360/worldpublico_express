@@ -1,0 +1,26 @@
+{
+  "name": "expressauth",
+  "version": "0.0.1",
+  "description": "express app with verification & authorization",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marque Reavley <mrqrvly@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.14.0",
+    "google-books-search": "^0.3.0",
+    "mongoose": "^4.5.7"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.1.0",
+    "gulp-live-server": "0.0.30",
+    "gulp-sqlite3": "0.0.1"
+  }
+}
