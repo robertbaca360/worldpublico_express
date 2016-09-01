@@ -2,6 +2,7 @@
 //  L O C A L   S E R V E R   F I L E
 //  =================================
 
+require('dotenv').config({ silent: true });
 //  Dependencies
 //  ------------
 var express    = require('express'),
